@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFBECE"
+    android:backgroundTint="#CCE8AC"
+    tools:context=".MovieDetailsActivity">
+
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="138dp"
+        android:layout_toEndOf="@+id/ivPrimaryImage"
+        android:text="Movie Title"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textColor="#054C08"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/ivPrimaryImage"
+        android:layout_width="162dp"
+        android:layout_height="202dp"
+        android:paddingTop="2dp"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="1dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/tvOverview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvTitle"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="133dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginRight="-3dp"
+        android:layout_toEndOf="@+id/ivPrimaryImage"
+        android:text="TextView"
+        android:textStyle="bold" />
+
+    <RatingBar
+        android:id="@+id/rbVoteAverage"
+        style="@style/Widget.AppCompat.RatingBar.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvOverview"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="84dp"
+        android:layout_marginTop="13dp"
+        android:layout_toEndOf="@+id/ivPrimaryImage"
+        android:numStars="10"
+        android:progressTint="#FF7373"
+        android:stepSize="0.5" />
+</RelativeLayout>
