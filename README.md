@@ -31,6 +31,7 @@ Here's a walkthrough of implemented user stories:
 
 GIF created with [Kap](https://getkap.co/).
 
+Better Quality GIF can be found here but the file was to large to upload: https://drive.google.com/file/d/1oqPqgf-oI3jwkWPtFkBSIqve6muAMUre/view?usp=sharing
 
 ## Open-source libraries used
 
