@@ -27,7 +27,7 @@ The following **stretch** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://github.com/ShellyGoel/Flixter/blob/master/flixter3.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/ShellyGoel/Flixter/blob/master/flixter6-min.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [Kap](https://getkap.co/).
 
