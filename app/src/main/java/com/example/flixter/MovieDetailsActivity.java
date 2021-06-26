@@ -56,6 +56,7 @@ public class MovieDetailsActivity extends AppCompatActivity {
         if (this.getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE){
             //then imageURL = back drop image
             imageUrl = movie.getBackdropPath();
+
             //placeImage = "R.drawable.flicks_backdrop_placeholder";
             //Glide.with(context).load(imageUrl).transform(new RoundedCornersTransformation(radius, margin)).placeholder(R.drawable.flicks_backdrop_placeholder).override(200,300).into(ivPrimaryImage);
             Glide.with(this).load(imageUrl).transform(new RoundedCornersTransformation(radius, margin)).placeholder(R.drawable.flicks_backdrop_placeholder).override(200,300).into(ivPrimaryImage);
